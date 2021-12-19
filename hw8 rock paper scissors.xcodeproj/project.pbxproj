@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD4A682D276F8BCD00014EE1 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4A682C276F8BCD00014EE1 /* ResultView.swift */; };
+		DD4A682F276F8C3200014EE1 /* BotsPickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4A682E276F8C3200014EE1 /* BotsPickView.swift */; };
+		DD4A6831276F8C6500014EE1 /* StartPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4A6830276F8C6500014EE1 /* StartPageView.swift */; };
+		DD4A6833276F8C9C00014EE1 /* FirstPlayersPickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4A6832276F8C9C00014EE1 /* FirstPlayersPickView.swift */; };
+		DD4A6835276F8D2100014EE1 /* SecondPlayersPickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4A6834276F8D2100014EE1 /* SecondPlayersPickView.swift */; };
+		DD4A6837276F8DB600014EE1 /* PhonePassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4A6836276F8DB600014EE1 /* PhonePassView.swift */; };
+		DD588563276B4C78001BAFC6 /* hw8_rock_paper_scissorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD588562276B4C78001BAFC6 /* hw8_rock_paper_scissorsApp.swift */; };
+		DD588565276B4C78001BAFC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD588564276B4C78001BAFC6 /* ContentView.swift */; };
+		DD588567276B4C79001BAFC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD588566276B4C79001BAFC6 /* Assets.xcassets */; };
+		DD58856A276B4C79001BAFC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD588569276B4C79001BAFC6 /* Preview Assets.xcassets */; };
+		DD588574276B4C79001BAFC6 /* hw8_rock_paper_scissorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD588573276B4C79001BAFC6 /* hw8_rock_paper_scissorsTests.swift */; };
+		DD58857E276B4C79001BAFC6 /* hw8_rock_paper_scissorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58857D276B4C79001BAFC6 /* hw8_rock_paper_scissorsUITests.swift */; };
+		DD588580276B4C79001BAFC6 /* hw8_rock_paper_scissorsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58857F276B4C79001BAFC6 /* hw8_rock_paper_scissorsUITestsLaunchTests.swift */; };
+		DD58858D276B7A4B001BAFC6 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58858C276B7A4B001BAFC6 /* Player.swift */; };
+		DD6D006E276BCBD000D0C0DF /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6D006D276BCBD000D0C0DF /* Colors.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD588570276B4C79001BAFC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD588557276B4C78001BAFC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD58855E276B4C78001BAFC6;
+			remoteInfo = "hw8 rock paper scissors";
+		};
+		DD58857A276B4C79001BAFC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD588557276B4C78001BAFC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD58855E276B4C78001BAFC6;
+			remoteInfo = "hw8 rock paper scissors";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD4A682C276F8BCD00014EE1 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		DD4A682E276F8C3200014EE1 /* BotsPickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotsPickView.swift; sourceTree = "<group>"; };
+		DD4A6830276F8C6500014EE1 /* StartPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPageView.swift; sourceTree = "<group>"; };
+		DD4A6832276F8C9C00014EE1 /* FirstPlayersPickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPlayersPickView.swift; sourceTree = "<group>"; };
+		DD4A6834276F8D2100014EE1 /* SecondPlayersPickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPlayersPickView.swift; sourceTree = "<group>"; };
+		DD4A6836276F8DB600014EE1 /* PhonePassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePassView.swift; sourceTree = "<group>"; };
+		DD58855F276B4C78001BAFC6 /* hw8 rock paper scissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hw8 rock paper scissors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD588562276B4C78001BAFC6 /* hw8_rock_paper_scissorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw8_rock_paper_scissorsApp.swift; sourceTree = "<group>"; };
+		DD588564276B4C78001BAFC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD588566276B4C79001BAFC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD588569276B4C79001BAFC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD58856F276B4C79001BAFC6 /* hw8 rock paper scissorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hw8 rock paper scissorsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD588573276B4C79001BAFC6 /* hw8_rock_paper_scissorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw8_rock_paper_scissorsTests.swift; sourceTree = "<group>"; };
+		DD588579276B4C79001BAFC6 /* hw8 rock paper scissorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hw8 rock paper scissorsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD58857D276B4C79001BAFC6 /* hw8_rock_paper_scissorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw8_rock_paper_scissorsUITests.swift; sourceTree = "<group>"; };
+		DD58857F276B4C79001BAFC6 /* hw8_rock_paper_scissorsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw8_rock_paper_scissorsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD58858C276B7A4B001BAFC6 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		DD6D006D276BCBD000D0C0DF /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD58855C276B4C78001BAFC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD58856C276B4C79001BAFC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD588576276B4C79001BAFC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD4A683B276F99DC00014EE1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD588564276B4C78001BAFC6 /* ContentView.swift */,
+				DD4A6830276F8C6500014EE1 /* StartPageView.swift */,
+				DD4A6832276F8C9C00014EE1 /* FirstPlayersPickView.swift */,
+				DD4A682E276F8C3200014EE1 /* BotsPickView.swift */,
+				DD4A6836276F8DB600014EE1 /* PhonePassView.swift */,
+				DD4A6834276F8D2100014EE1 /* SecondPlayersPickView.swift */,
+				DD4A682C276F8BCD00014EE1 /* ResultView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DD4A683C276F99EA00014EE1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD58858C276B7A4B001BAFC6 /* Player.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DD588556276B4C78001BAFC6 = {
+			isa = PBXGroup;
+			children = (
+				DD588561276B4C78001BAFC6 /* hw8 rock paper scissors */,
+				DD588572276B4C79001BAFC6 /* hw8 rock paper scissorsTests */,
+				DD58857C276B4C79001BAFC6 /* hw8 rock paper scissorsUITests */,
+				DD588560276B4C78001BAFC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD588560276B4C78001BAFC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD58855F276B4C78001BAFC6 /* hw8 rock paper scissors.app */,
+				DD58856F276B4C79001BAFC6 /* hw8 rock paper scissorsTests.xctest */,
+				DD588579276B4C79001BAFC6 /* hw8 rock paper scissorsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD588561276B4C78001BAFC6 /* hw8 rock paper scissors */ = {
+			isa = PBXGroup;
+			children = (
+				DD588562276B4C78001BAFC6 /* hw8_rock_paper_scissorsApp.swift */,
+				DD4A683B276F99DC00014EE1 /* Views */,
+				DD4A683C276F99EA00014EE1 /* Models */,
+				DD588566276B4C79001BAFC6 /* Assets.xcassets */,
+				DD6D006D276BCBD000D0C0DF /* Colors.swift */,
+				DD588568276B4C79001BAFC6 /* Preview Content */,
+			);
+			path = "hw8 rock paper scissors";
+			sourceTree = "<group>";
+		};
+		DD588568276B4C79001BAFC6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DD588569276B4C79001BAFC6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD588572276B4C79001BAFC6 /* hw8 rock paper scissorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD588573276B4C79001BAFC6 /* hw8_rock_paper_scissorsTests.swift */,
+			);
+			path = "hw8 rock paper scissorsTests";
+			sourceTree = "<group>";
+		};
+		DD58857C276B4C79001BAFC6 /* hw8 rock paper scissorsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD58857D276B4C79001BAFC6 /* hw8_rock_paper_scissorsUITests.swift */,
+				DD58857F276B4C79001BAFC6 /* hw8_rock_paper_scissorsUITestsLaunchTests.swift */,
+			);
+			path = "hw8 rock paper scissorsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD58855E276B4C78001BAFC6 /* hw8 rock paper scissors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD588583276B4C79001BAFC6 /* Build configuration list for PBXNativeTarget "hw8 rock paper scissors" */;
+			buildPhases = (
+				DD58855B276B4C78001BAFC6 /* Sources */,
+				DD58855C276B4C78001BAFC6 /* Frameworks */,
+				DD58855D276B4C78001BAFC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hw8 rock paper scissors";
+			productName = "hw8 rock paper scissors";
+			productReference = DD58855F276B4C78001BAFC6 /* hw8 rock paper scissors.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD58856E276B4C79001BAFC6 /* hw8 rock paper scissorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD588586276B4C79001BAFC6 /* Build configuration list for PBXNativeTarget "hw8 rock paper scissorsTests" */;
+			buildPhases = (
+				DD58856B276B4C79001BAFC6 /* Sources */,
+				DD58856C276B4C79001BAFC6 /* Frameworks */,
+				DD58856D276B4C79001BAFC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD588571276B4C79001BAFC6 /* PBXTargetDependency */,
+			);
+			name = "hw8 rock paper scissorsTests";
+			productName = "hw8 rock paper scissorsTests";
+			productReference = DD58856F276B4C79001BAFC6 /* hw8 rock paper scissorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD588578276B4C79001BAFC6 /* hw8 rock paper scissorsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD588589276B4C79001BAFC6 /* Build configuration list for PBXNativeTarget "hw8 rock paper scissorsUITests" */;
+			buildPhases = (
+				DD588575276B4C79001BAFC6 /* Sources */,
+				DD588576276B4C79001BAFC6 /* Frameworks */,
+				DD588577276B4C79001BAFC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD58857B276B4C79001BAFC6 /* PBXTargetDependency */,
+			);
+			name = "hw8 rock paper scissorsUITests";
+			productName = "hw8 rock paper scissorsUITests";
+			productReference = DD588579276B4C79001BAFC6 /* hw8 rock paper scissorsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD588557276B4C78001BAFC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					DD58855E276B4C78001BAFC6 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					DD58856E276B4C79001BAFC6 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = DD58855E276B4C78001BAFC6;
+					};
+					DD588578276B4C79001BAFC6 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = DD58855E276B4C78001BAFC6;
+					};
+				};
+			};
+			buildConfigurationList = DD58855A276B4C78001BAFC6 /* Build configuration list for PBXProject "hw8 rock paper scissors" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD588556276B4C78001BAFC6;
+			productRefGroup = DD588560276B4C78001BAFC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD58855E276B4C78001BAFC6 /* hw8 rock paper scissors */,
+				DD58856E276B4C79001BAFC6 /* hw8 rock paper scissorsTests */,
+				DD588578276B4C79001BAFC6 /* hw8 rock paper scissorsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD58855D276B4C78001BAFC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD58856A276B4C79001BAFC6 /* Preview Assets.xcassets in Resources */,
+				DD588567276B4C79001BAFC6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD58856D276B4C79001BAFC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD588577276B4C79001BAFC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD58855B276B4C78001BAFC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD588565276B4C78001BAFC6 /* ContentView.swift in Sources */,
+				DD4A682F276F8C3200014EE1 /* BotsPickView.swift in Sources */,
+				DD6D006E276BCBD000D0C0DF /* Colors.swift in Sources */,
+				DD4A682D276F8BCD00014EE1 /* ResultView.swift in Sources */,
+				DD4A6837276F8DB600014EE1 /* PhonePassView.swift in Sources */,
+				DD4A6831276F8C6500014EE1 /* StartPageView.swift in Sources */,
+				DD58858D276B7A4B001BAFC6 /* Player.swift in Sources */,
+				DD588563276B4C78001BAFC6 /* hw8_rock_paper_scissorsApp.swift in Sources */,
+				DD4A6833276F8C9C00014EE1 /* FirstPlayersPickView.swift in Sources */,
+				DD4A6835276F8D2100014EE1 /* SecondPlayersPickView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD58856B276B4C79001BAFC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD588574276B4C79001BAFC6 /* hw8_rock_paper_scissorsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD588575276B4C79001BAFC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD58857E276B4C79001BAFC6 /* hw8_rock_paper_scissorsUITests.swift in Sources */,
+				DD588580276B4C79001BAFC6 /* hw8_rock_paper_scissorsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD588571276B4C79001BAFC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD58855E276B4C78001BAFC6 /* hw8 rock paper scissors */;
+			targetProxy = DD588570276B4C79001BAFC6 /* PBXContainerItemProxy */;
+		};
+		DD58857B276B4C79001BAFC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD58855E276B4C78001BAFC6 /* hw8 rock paper scissors */;
+			targetProxy = DD58857A276B4C79001BAFC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD588581276B4C79001BAFC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD588582276B4C79001BAFC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD588584276B4C79001BAFC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hw8 rock paper scissors/Preview Content\"";
+				DEVELOPMENT_TEAM = 4ZY2P6T65K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "leyla.hw8-rock-paper-scissors";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD588585276B4C79001BAFC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hw8 rock paper scissors/Preview Content\"";
+				DEVELOPMENT_TEAM = 4ZY2P6T65K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "leyla.hw8-rock-paper-scissors";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD588587276B4C79001BAFC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZY2P6T65K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "leyla.hw8-rock-paper-scissorsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hw8 rock paper scissors.app/hw8 rock paper scissors";
+			};
+			name = Debug;
+		};
+		DD588588276B4C79001BAFC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZY2P6T65K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "leyla.hw8-rock-paper-scissorsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hw8 rock paper scissors.app/hw8 rock paper scissors";
+			};
+			name = Release;
+		};
+		DD58858A276B4C79001BAFC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZY2P6T65K;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "leyla.hw8-rock-paper-scissorsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hw8 rock paper scissors";
+			};
+			name = Debug;
+		};
+		DD58858B276B4C79001BAFC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZY2P6T65K;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "leyla.hw8-rock-paper-scissorsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hw8 rock paper scissors";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD58855A276B4C78001BAFC6 /* Build configuration list for PBXProject "hw8 rock paper scissors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD588581276B4C79001BAFC6 /* Debug */,
+				DD588582276B4C79001BAFC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD588583276B4C79001BAFC6 /* Build configuration list for PBXNativeTarget "hw8 rock paper scissors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD588584276B4C79001BAFC6 /* Debug */,
+				DD588585276B4C79001BAFC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD588586276B4C79001BAFC6 /* Build configuration list for PBXNativeTarget "hw8 rock paper scissorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD588587276B4C79001BAFC6 /* Debug */,
+				DD588588276B4C79001BAFC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD588589276B4C79001BAFC6 /* Build configuration list for PBXNativeTarget "hw8 rock paper scissorsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD58858A276B4C79001BAFC6 /* Debug */,
+				DD58858B276B4C79001BAFC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD588557276B4C78001BAFC6 /* Project object */;
+}
